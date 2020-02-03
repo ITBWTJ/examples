@@ -10,5 +10,5 @@ https://hub.docker.com/r/herloct/phpcs
 /project - в докере (не менять)
 
 Далее загуглить настройки
-Выбрать интерпретатор, может быть none:none в Landuages.. -> PHP -> Code Sniffer
+Выбрать интерпретатор, может быть none:none в Landuages.. -> PHP -> Code Sniffer и отключить отображение только для этого проекта
 Выбрать стандарт PSR2 в Editor -> Inspections -> PHP -> validtion 
