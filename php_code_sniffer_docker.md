@@ -2,9 +2,7 @@ Docker PHP Code Sniffer
 
 https://hub.docker.com/r/herloct/phpcs
 
-Запустить docker run --rm \
-    --volume /local/path:/project \
-    herloct/phpcs 
+Запустить docker run --rm --volume /local/path:/project herloct/phpcs 
     
 /local/path - путь к коду на компе
 /project - в докере (не менять)
