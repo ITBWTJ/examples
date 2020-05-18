@@ -7,11 +7,8 @@ server {
 }
 
 server {
-             listen 443 ssl default_server;
-             server_name johnny-dev.pp.ua;
-
-             ssl_certificate /etc/letsencrypt/live/johnny-dev.pp.ua/fullchain.pem;
-             ssl_certificate_key /etc/letsencrypt/live/johnny-dev.pp.ua/privkey.pem;
+         listen 443 ssl default_server;
+         server_name johnny-dev.pp.ua;
 
         location /.well-known/acme-challenge {
                 root /var/www/website;
