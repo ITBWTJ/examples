@@ -1,4 +1,3 @@
-
 server {
     listen 80;
     server_name johnny-dev.pp.ua  www.johnny-dev.pp.ua;
